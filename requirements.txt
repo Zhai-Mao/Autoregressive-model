@@ -1,0 +1,5 @@
+torch
+yacs
+pandas==1.3.5
+plotly
+sklearn
