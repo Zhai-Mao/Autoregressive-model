@@ -1,5 +1,6 @@
 # DP(data prediction)
 ## 实现思路
+这个是找工作出的题目，掐头去尾做了3天半。
 首先我之前并没有做过相关的预测，作者之前做的是图像，因此实验会比较花费时间，但是本着对探索新事物的热情，想挑战一下。下面介绍实现思路。
 ### 思路1（不可行）：  
 代码框架是基于DANets进行搭建的。这个项目是用来tabular regression，这是因为数据是连续的，而不是类别数据，因此这里采用表格回归，同时数据中不存在时间戳，所以也不是时间序列预测。  
@@ -72,3 +73,4 @@ python train.py --data_path "data/data_to_predict.csv" --epochs 500
 - 预测未来数据：  
 ![](pictures/future_predction.png)  
 最终的预测结果保存在了data/data_predict.csv中。
+
